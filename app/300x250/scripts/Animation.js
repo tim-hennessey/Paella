@@ -44,10 +44,10 @@ app.Animation = (function () {
     function start() {
         tl1.from(lid, 2, {scale:2, ease: Cubic.easeInOut}, "+=2")
             .from(lid, .5, {opacity:0}, "-=1")
-            .to(txt1, .5, {opacity: 0}, "-=2")
+            .to(txt1, .5, {opacity: 0}, "-=1")
 
             .from(table, 3, {y: "+=150", scale: 2, ease: Cubic.easeInOut}, "-=1.5")
-            .from(marble, 3, {y: "-=20", ease: Cubic.easeInOut}, "-=3");
+            .from(marble, 3, {y: "-=30", ease: Cubic.easeInOut}, "-=3");
 
 
         tl2.from(txt2, .5, {opacity: 0}, "+=5")
