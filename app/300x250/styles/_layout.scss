@@ -50,41 +50,48 @@ body {
     }
 
     #resolve_txt1 {
-        top: 65px;
-        left: 0;
-        opacity:0;
+        top: 0;
+        left: 300px;
+        //opacity:0;
         position: absolute;
     }
 
     #resolve_txt2a {
-        top: 65px;
+        top: 0;
         left: 0;
         opacity:0;
         position: absolute;
-        clip: rect(0px, 93px, 33px, 0px);
+        clip: rect(0px, 95px, 65px, 0px);
     }
 
     #resolve_txt2b {
-        top: 65px;
+        top: 0;
         left: 0;
         opacity:0;
         position: absolute;
-        clip: rect(0px, 192px, 33px, 93px);
+        clip: rect(0px, 189px, 65px, 95px);
     }
 
     #resolve_txt2c {
-        top: 65px;
+        top: 0;
         left: 0;
         opacity:0;
         position: absolute;
-        clip: rect(0px, 300px, 33px, 192px);
+        clip: rect(0px, 263px, 65px, 189px);
+    }
+
+    #resolve_logo {
+        top: 0;
+        left: 0;
+        opacity:0;
+        position: absolute;
     }
 
     #cta {
-        width: 114px;
-        height: 36px;
-        left: 94px;
-        top: 102px;
+        width: 98px;
+        height: 31px;
+        left: 105px;
+        top: 74px;
         background-color: rgba(0, 32, 92, 1);
         opacity:0;
         position: absolute;
